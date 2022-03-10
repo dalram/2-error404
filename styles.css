@@ -1,18 +1,39 @@
-body {
-    background-color: tomato;
-}
+
 main {
-    background-color: thistle;
     width: 80%;
     margin-left: 10%;
     margin-top: 10%;
-    
+    display: inline-block; /*  jei bent 1 vaiko elementas turi float */
 }
 div {
     width: 30%;
-    background-color: azure;
-    display:inline-block;
+    float: left;
 }
 img {
     width: 60%;
+    float: right;
 }
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    color:cornflowerblue;
+}
+p {
+    font-size: 20px;
+    color: grey;
+    text-transform: uppercase;
+}
+/* priverstinis elementu nustumimas (horizontaliai) nurodyta kryptimi:
+float: left;
+float: right;
+
+Paprastas (standartizuotas) budas kurti universalia puslapio struktura (Visiems inside body elementas parasyti sias css komandas):
+display: inline-block;
+width: 100%;
+float: left;
+
+labiausiai teviskas elementas turi buti display: inline-block; (sio elemento vaikams galima palikti tik float)
+
+
+*/
