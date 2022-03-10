@@ -18,7 +18,6 @@ Design: [Error404] (https://cdn.dribbble.com/users/1037652/screenshots/2815937/4
 
 -   Github pages
 
-
 ## Authors
 
 Dalius : [Github](https://github.com/dalram)
