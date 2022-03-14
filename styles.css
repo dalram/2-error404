@@ -21,18 +21,28 @@ h1 {
     font-weight: bold;
     font-style: italic;
     color:cornflowerblue;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 p {
     font-size: 20px;
-    color: grey;
+    color: black;
     text-transform: uppercase;
+    font-weight: bold;
+}
+a {
+    display: inline-block;
+    border: solid 3px cornflowerblue;
+    border-radius: 19px;
+    color: cornflowerblue;
+    padding: 5px 20px;
+    text-decoration: none;
 }
 
 /* priverstinis elementu nustumimas (horizontaliai) nurodyta kryptimi:
 float: left;
 float: right;
-
+border-radius maksimalus dydis yra trumpiausio elemento puse krastines dydzio.
 Paprastas (standartizuotas) budas kurti universalia puslapio struktura (Visiems inside body elementas parasyti sias css komandas):
 display: inline-block;
 width: 100%;
