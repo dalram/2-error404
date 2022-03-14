@@ -1,7 +1,10 @@
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 main {
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 10%;
     display: inline-block; /*  jei bent 1 vaiko elementas turi float */
 }
@@ -18,12 +21,14 @@ h1 {
     font-weight: bold;
     font-style: italic;
     color:cornflowerblue;
+    margin-top: 50px;
 }
 p {
     font-size: 20px;
     color: grey;
     text-transform: uppercase;
 }
+
 /* priverstinis elementu nustumimas (horizontaliai) nurodyta kryptimi:
 float: left;
 float: right;
